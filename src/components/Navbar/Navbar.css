@@ -1,0 +1,22 @@
+/* Navbar styles for desktop */
+.desktop-nav {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    display: flex; /* Align items in a row */
+    align-items: center; /* Center items vertically */
+}
+
+.desktop-nav li {
+    margin-left: 20px; /* Space between items */
+}
+
+.nav-link {
+    color: white; /* Ensure link text is white */
+    text-decoration: none; /* Remove underline from links */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.nav-link:hover {
+    color: #1abc9c; /* Change color on hover */
+}
